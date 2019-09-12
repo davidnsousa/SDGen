@@ -1,8 +1,8 @@
 # SDGen
 
-SDGen is a superdonor generator program for experimental research on human chemosignals communication. Body odor superdonors are made of four different donors: two left armpit sweat donors plus two right armpit sweat donors.
+SDGen is a superdonor generator program for experimental research on human chemosignals (body odor) communication. Body odor superdonors are defined here (based on current body odor literature) as a super sample containing 4 pad pieces (odor samples), each from a different individual (donor), with 2 pad pieces from the right armpit and 2 from the left. 
 
-The program samples two different random left armpit sweat pads and two different random right armpit sweat pads and picks a pad piece from them to constitute a mixed superdonor of four different donors.  The program gives a list of possible random combinations of donors for each superdonor with no waste of pad pieces.
+The program samples two different random left armpit sweat pads and two different random right armpit sweat pads and picks a pad piece from them to create a mixed superdonor of four different donors. The program gives a list of possible random combinations of donors for each superdonor with no waste of pad pieces.
 
 ## Instructions
 
@@ -25,12 +25,12 @@ After clicking *Run* the output `.csv` file will be generated at the same direct
 
 ### Output
 
-The `SD.csv` file can be open any Microsoft Excel-like software. Each line in the sheet presented gives a four-donor combination of pad pieces specifying a particular superdonor. The first column indicates the superdonors ID's and columns named `L1`, `L2`, `R1` and `L2` indicate the donors selected for the first left armpit pad piece, second left armpit pad piece, first right armpit pad piece and second right armpit pad piece respectively. 
+The `SD.csv` file can be opened with any Microsoft Excel-like software. Each line presented in the sheet gives a four-donor combination of pad pieces specifying a particular superdonor. The first column indicates the superdonors ID's and columns named `L1`, `L2`, `R1` and `L2` indicate the donors selected for the first left armpit pad piece, second left armpit pad piece, first right armpit pad piece and second right armpit pad piece, respectively. 
 
 For example, for the default input with input type specified by the *Number of Donors*, if the first line in the output file looks like follows 
-> SD1,D2,D6,D4,D1
+> SD1| D2,D6,D4,D1
 
-it indicates that the superdonor 1 is made of one of the left pad pieces of donor 2, one of the left pad pieces of donor 6, one of the right pad pieces of donor 4 and one of the right pad pieces of donor 1. All the lines after follow the same logic.
+it indicates that the superdonor 1 (SD1) is made of one of the left pad pieces of donor 2, one of the left pad pieces of donor 6, one of the right pad pieces of donor 4 and one of the right pad pieces of donor 1. All the lines after follow the same logic.
 
 ### Mixing males and females
 
@@ -44,4 +44,4 @@ Please cite SDGen if you use the program:
 
 ## Contact
 
-For further questions contact the us.
+For further questions contact us.
