@@ -34,7 +34,7 @@ it indicates that the superdonor 1 (SD1) is made of one of the left pad pieces o
 
 ### Mixing males and females
 
-...
+As an example, consider you have 8 donors, 4 female `F1,F2,F3,F4` and 4 male `M1,M2,M3,M4` donors, and you wish to generate mixed superdonors of male and female donors: each with two female donors (left and right) + two male donors (left and right). To do this, it is necessary to run the program for the 4 female donors and the 4 male donors separately. If the selected *Number of pad pieces to cut each pad into* is 8, two output files will be generated with 16 superdonors each (make sure you give them different names). Two create the first mixed superdonor you simply choose one female left armpit pad piece and one female right armpit pad piece from the first line of one output file, plus one male left armpit pad piece and one male right armpit pad piece from the first line of the other output file. With the leftovers you may create the second mixed superdonor. Do this for each line of both files and you will get 32 mixed superdonors.
 
 ## Citing
 
