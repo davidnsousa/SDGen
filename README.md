@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458002.svg)](https://doi.org/10.5281/zenodo.3458002)
+
 # SDGen
 
 SDGen is a superdonor generator program for experimental research on human chemosignals (body odor) communication. Body odor superdonors are defined here (based on current body odor literature) as a super sample containing 4 pad pieces (odor samples), each from a different individual (donor), with 2 pad pieces from the right armpit and 2 from the left. 
@@ -41,7 +43,7 @@ As an example, consider that you have 8 donors, 4 females (`F1,F2,F3,F4`) and 4 
 
 Please cite SDGen if you use the program:
 
-...
+David Sousa, & Fábio Silva. (2019, September 23). davidnsousa/SDGen: First release of SDGen (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.3458002
 
 ## Contact
 
